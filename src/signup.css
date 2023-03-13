@@ -1,0 +1,96 @@
+form {
+    margin: auto;
+    min-width: 700px;
+    padding-right: 20px;
+position: relative;
+right: 100px;
+    padding-bottom: 2em;
+}   
+
+body {
+    background-image: url(images/backg.jpeg);
+    background-color: rgb(19, 211, 224);
+    background-size: 100% ;
+    text-align: center;
+font-family: sans-serif;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    
+    padding-bottom: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+::placeholder {
+font-size: 2.5vh;
+
+}
+
+input {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height:  7vh;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.img {
+   border: 1px solid white;
+   border-width: 10px;
+   width: 5vh;
+   background-color: white;
+   border-radius: 90px;
+}
+
+div {
+    border: 1px solid rgb(111, 194, 221);
+    width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(111, 194, 221);
+  
+}
+
+.brands {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 7vh;
+    width: 60%;
+  background-color: rgb(16, 146, 189);
+  border-radius: 90px;
+  position: relative;
+  top: 40px;
+  font-size: 2.5vh;
+}
+
+@media only screen and (max-width: 768px) {
+div {
+    width: 500px;
+}
+form {
+    position: relative;
+    right: 95px;
+}
+
+
+}
